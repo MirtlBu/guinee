@@ -1,0 +1,19 @@
+{
+  "name": "Mirtl",
+  "version": "0.0.1",
+  "homepage": "",
+  "authors": [
+    "Елена <bubuzoglo@gmail.com>"
+  ],
+  "description": "Guinee landing page",
+  "keywords": [
+    "frontend"
+  ],
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "jquery": null,
+    "social-likes": null,
+    "fontawesome": null
+  }
+}

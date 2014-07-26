@@ -1,0 +1,6 @@
+.sass-cache
+
+### Grunt files ###
+node_modules
+bower_components
+www/fontawesome
