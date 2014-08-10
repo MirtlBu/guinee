@@ -1,0 +1,138 @@
+* {
+  padding: 0;
+  margin: 0; }
+
+body {
+  font-size: 14px;
+  font-family: "Helvetica Neue"; }
+
+a {
+  text-decoration: none; }
+
+.decorline {
+  height: 93px;
+  width: 100%;
+  background: url(../images/ornament.png) repeat-x #fabd00; }
+
+.main__wrap {
+  background-color: black; }
+
+.main {
+  width: 1000px;
+  margin: auto;
+  position: relative; }
+
+.navpanel {
+  width: 100%;
+  margin-bottom: 50px; }
+
+li.nav {
+  margin: 0 20px 0 20px;
+  display: inline; }
+
+a.nav {
+  color: #fabd00;
+  border-bottom: 1px solid rgba(250, 189, 0, 0.5);
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 80px;
+  letter-spacing: 3px; }
+  a.nav:hover {
+    color: #019561;
+    border-bottom: 1px solid rgba(1, 149, 97, 0.5); }
+
+.drummer {
+  display: inline-block;
+  position: relative;
+  left: 0;
+  bottom: 0;
+  vertical-align: top; }
+
+.about {
+  display: inline-block;
+  width: 450px;
+  position: relative;
+  left: 70px;
+  top: 55px; }
+
+.logo__main {
+  width: 193px;
+  height: 250px;
+  margin: 0 0 0 80px;
+  background: url(../images/main-logo.png) no-repeat; }
+
+.text__main {
+  color: rgba(242, 9, 41, 0.8);
+  padding: 70px 0 50px 0; }
+  .text__main h3 {
+    display: block;
+    padding: 20px 0 20px 0;
+    font-size: 24px;
+    font-weight: 200;
+    letter-spacing: 1px; }
+  .text__main p {
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 20px; }
+
+.media__wrap {
+  background-color: #fabd00;
+  padding: 35px 0 70px 0; }
+
+.media {
+  width: 1000px;
+  margin: auto;
+  position: relative; }
+
+.gallery {
+  margin: auto; }
+
+.title {
+  font-size: 24px;
+  font-weight: 200;
+  padding: 35px 0 35px 0;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 3px; }
+
+.title-other {
+  color: white;
+  font-weight: 100;
+  display: inline-block; }
+
+.contacts__wrap {
+  background-color: black;
+  padding: 35px 0 70px 0; }
+
+.contacts {
+  width: 1000px;
+  margin: auto;
+  position: relative;
+  text-align: center; }
+
+.compass {
+  margin: 0 30px 0 0; }
+
+.map {
+  margin-bottom: 35px; }
+
+.community {
+  margin-bottom: 35px; }
+
+.community__links {
+  display: inline-block;
+  color: white;
+  width: 45px;
+  height: 35px;
+  border-radius: 50%;
+  text-align: center;
+  margin: 0 15px 0 15px;
+  padding-top: 10px; }
+  .community__links:hover {
+    background-color: #019561; }
+
+.social .social-likes__widget {
+  background-color: rgba(242, 9, 41, 0.8); }
+  .social .social-likes__widget:hover {
+    background-color: #019561; }

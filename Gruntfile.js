@@ -47,7 +47,7 @@ module.exports = function(grunt) {
       js: {
         files: {
           // Все файлы разом, подключаются в алфавитном порядке
-          'www/js/all.js': 'scripts/**/*.js'
+          'www/js/all.js': 'scripts/*.js'
         }
       },
       css: {
@@ -55,7 +55,7 @@ module.exports = function(grunt) {
           // Можно указывать конкретный порядок
           'www/css/style.css': [
             'styles/style.css',            
-            'bower_components/social-likes/social-likes_birman.css',
+            'bower_components/social-likes/social-likes_flat.css',
             'bower_components/fontawesome/css/font-awesome.css'
           ]
         }
@@ -95,6 +95,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-bower-concat');
 
   // Задача по умолчанию (`grunt` в терминале)
+  //grunt.registerTask('default', ['concat', 'sass', 'bower_concat','autoprefixer', 'uglify', 'csso', 'ssi']);
   grunt.registerTask('default', ['concat', 'sass', 'bower_concat','autoprefixer', 'uglify', 'csso']);
 
 };

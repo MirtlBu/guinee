@@ -6,15 +6,116 @@
     <meta content="width=1000px" name="viewport">
     <meta name="description" content="Гвинея - это барабанная школа. У нас вы научитесь играть африканские ритмы, узнаете что такое джем и импровизация, и сможете вместе с нами развиваться, и наполняться новыми ритмами день ото дня.">
     <meta name="keywords" content="барабанная школа, барабаны, африкаснкие ритмы, научиться играть на барабанах, африканские барабаны" />
+    <script src="http://api-maps.yandex.ru/2.0-stable/?load=package.standard&lang=ru-RU" type="text/javascript"></script>
     <link rel="apple-touch-icon-precomposed" sizes="152x152" href="favicon-152.png">
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="favicon-144.png">
     <link rel="apple-touch-icon-precomposed" sizes="120x120" href="favicon-120.png"> 
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="favicon-114.png">   
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="favicon-72.png">
     <link rel="apple-touch-icon-precomposed" href="favicon-57.png">
-    <link rel="icon" href="favicon.png" sizes="32x32"> 
+    <link rel="icon" href="favicon.png" sizes="32x32">
+    <link  href="http://fotorama.s3.amazonaws.com/4.6.0/fotorama.css" rel="stylesheet">
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet"> 
     <link type="text/css" href="css/style.css" rel="Stylesheet"/>
 <body>
-lalalala
+<div class="decorline" height="93"></div>
+
+<div class="main__wrap">
+    <div class="main">    
+        <div class="navpanel">
+            <ul class="nav">
+                <li class="nav">
+                    <a href="#" class="nav">Главная</a>                
+                </li>
+                <li class="nav">
+                    <a href="#" class="nav">Медиа</a>                
+                </li>
+                <li class="nav">
+                    <a href="#" class="nav">Контакты</a>                
+                </li>
+            </ul>
+        </div>
+        <img src="images/main-drummer.jpg" alt="" class="drummer" width="453" height="700">
+        <div class="about">
+            <div class="logo__main" width="193" height="250"></div>
+            <div class="text__main">
+                <h3>Гвинея - это барабанная школа</h3>
+                <p>Наш преподаватель - Калю - носитель африканской культуры, и&nbsp;как никто другой может научить не&nbsp;только играть на&nbsp;африканских барабанах, но&nbsp;и&nbsp;расскажет об&nbsp;их&nbsp;культуре, происхождении, раскроет их&nbsp;душу. В&nbsp;нашей школе вы научитесь играть африканские ритмы, вы узнаете, что такое джем и&nbsp;импровизация, и&nbsp;сможете вместе с&nbsp;нами развиваться, и наполняться новыми ритмами день ото дня.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="media__wrap">
+    <div class="media">
+        <h2 class="title">Фотогалерея Guinée</h2>
+        <div class="fotorama" 
+                data-width="100%"
+                data-ratio="3/2"
+                data-nav="thumbs"
+                data-loop="true"
+                data-thumbmargin="15">
+            <img src="images/fotorama1.jpg" alt="" class="gallery">
+            <img src="images/fotorama2.jpg" alt="" class="gallery">
+            <img src="images/fotorama3.jpg" alt="" class="gallery">
+            <img src="images/fotorama4.jpg" alt="" class="gallery">
+            <img src="images/fotorama5.jpg" alt="" class="gallery">
+            <img src="images/fotorama6.jpg" alt="" class="gallery">
+            <img src="images/fotorama7.jpg" alt="" class="gallery">
+            <img src="images/fotorama8.jpg" alt="" class="gallery">
+            <img src="images/fotorama9.jpg" alt="" class="gallery">
+            <img src="images/fotorama10.jpg" alt="" class="gallery">
+        </div>
+    </div>
+</div>
+
+<div class="contacts__wrap">
+    <div class="contacts">
+        <!-- <img src="images/compass.png" alt="" class="compass" width="80" height="80"> -->
+        <h2 class="title title-other">Нас можно найти:</h2>
+        <div class="map">
+            <div id="map" style="width: 100%; height: 500px"></div>
+        </div>
+       <!--  <img src="images/eye.png" alt="" class="compass" width="53" height="61"> -->
+        <h2 class="title title-other">Нас можно прочитать:</h2>
+        <div class="community">
+            <a href="http://vk.com/guinee" class="community__links"><i class="fa fa-vk fa-2x"></i></a>
+            <a href="" class="community__links"><i class="fa fa-facebook fa-2x"></i></a>
+            <a href="" class="community__links"><i class="fa fa-twitter fa-2x"></i></a>
+        </div>
+       <!--  <img src="images/talk.png" alt="" class="compass" width="35" height="84"> -->
+        <h2 class="title title-other">Нас можно порекомендовать:</h2>
+        <div class="social-likes social" data-counters="no">
+            <div class="facebook" title="Поделиться ссылкой на Фейсбуке">Facebook</div>
+            <div class="twitter" title="Поделиться ссылкой в Твиттере">Twitter</div>
+            <div class="mailru" title="Поделиться ссылкой в Моём мире">Мой мир</div>
+            <div class="vkontakte" title="Поделиться ссылкой во Вконтакте">Вконтакте</div>
+            <div class="odnoklassniki" title="Поделиться ссылкой в Одноклассниках">Одноклассники</div>
+            <div class="plusone" title="Поделиться ссылкой в Гугл-плюсе">Google+</div>
+        </div>
+    </div>
+</div>
+
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="js/social-likes.min.js"></script> 
+<script src="http://fotorama.s3.amazonaws.com/4.6.0/fotorama.js"></script>
+<script>
+    ymaps.ready(init);
+        var myMap, 
+            myPlacemark;
+        function init(){ 
+            myMap = new ymaps.Map ("map", {
+                center: [55.721536,37.690977],
+                zoom: 15
+            });             
+            myPlacemark = new ymaps.Placemark([55.721536,37.690977], {
+                hintContent: 'Guinée',
+                balloonContent: 'Школа барабанов: Волгоградский проспект, 32к13'
+            });            
+            myMap.geoObjects.add(myPlacemark);
+            myMap.controls.add('zoomControl');
+        }
+</script>
 </body>
 </html>
