@@ -44,7 +44,7 @@ li.nav {
 
 a.nav {
 	color: $yellow;
-	border-bottom: 1px solid rgba(250, 189, 0, .5);
+	border-bottom: 1px solid rgba(250, 189, 0, .3);
 	text-transform: uppercase;
 	font-size: 16px;
 	font-weight: 300;
@@ -52,7 +52,7 @@ a.nav {
 	letter-spacing: 3px;
 	&:hover {
 		color: $green;
-		border-bottom: 1px solid rgba(1, 149, 97, .5);
+		border-bottom: 1px solid rgba(1, 149, 97, .3);
 	}
 }
 
@@ -86,25 +86,26 @@ a.nav {
 		display: block;
 		padding: 20px 0 20px 0;
 		font-size: 24px;		
-		font-weight: 200;
+		font-weight: 200;		
 		letter-spacing: 1px;
 	}
 	p {
-		font-size: 14px;
-		letter-spacing: 1px;
+		font-size: 18px;
 		line-height: 20px;
+		font-weight: 200;
 	}
 }
 
 .media__wrap {	
 	background-color: $yellow;
-	padding: 35px 0 70px 0;
+	padding: 35px 0 35px 0;
 }
 
 .media {
 	width: 1000px;
 	margin: auto;
 	position: relative;
+	text-align: center;
 }
 
 .gallery {
@@ -123,12 +124,11 @@ a.nav {
 .title-other {
 	color: white;
 	font-weight: 100;
-	display: inline-block;
 }
 
 .contacts__wrap {
 	background-color: black;
-	padding: 35px 0 70px 0;
+	padding: 35px 0 35px 0;
 }
 
 .contacts {
@@ -138,40 +138,88 @@ a.nav {
 	text-align: center;	
 }
 
-.compass {
-	margin: 0 30px 0 0;
-}
-
-.map {
-	margin-bottom: 35px;
-}
-
-.community {
-	margin-bottom: 35px;
-}
-
-.community__links {
+.row {
 	display: inline-block;
-	color: white;
-	width: 45px;
-	height: 35px;
-	// border: 2px solid $yellow;
-	// background-color: $yellow;
-	border-radius: 50%;
-	text-align: center;
-	margin: 0 15px 0 15px;
-	padding-top: 10px;
+	width: 45%;
+	vertical-align: top;
+}
+
+.contacts__item {
+	padding: 0 0 35px 0;
+}
+
+.community__link {	
+	color: $yellow;
+	border-bottom: 1px solid rgba(250, 189, 0, .3);
+	font-size: 16px;
+	font-weight: 300;
+	letter-spacing: 3px;
 	&:hover {
-		// border: 2px solid $green;
-		background-color: $green;
+		color: $green;
+		border-bottom: 1px solid rgba(1, 149, 97, .3);
 	}
+}
+
+.phone {
+	font-size: 16px;		
+	font-weight: 100;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	color: white;
+	display: block;
+	color: $yellow;
+	padding: .04em .7em .18em 1.65em;
+	margin: .5em;
 }
 
 .social .social-likes__widget{
-	background-color: $red;
+	background-color: transparent;
+	border-bottom: 1px solid rgba(250, 189, 0, .3);
 	&:hover {
-		background-color: $green;
-	}
+			color: $green;
+			border-bottom: 1px solid rgba(1, 149, 97, .3);
+			span {
+				color: $green;
+			}
+		}
+	span {
+		font-size: 16px;		
+		font-weight: 400;
+		text-transform: uppercase;
+		letter-spacing: 3px;
+		color: $yellow;
+	}	
+}
+
+.back {
+	text-transform: uppercase;
+	font-size: 16px;
+	font-weight: 400;
+	letter-spacing: 3px;
+	display: inline-block;
+}
+
+.back__media {
+	color: black;
+	border-bottom: 1px solid rgba(0, 0, 0, .3);
+	&:hover {
+			color: $green;
+			border-bottom: 1px solid rgba(1, 149, 97, .3);
+		}
+}
+
+.back__contacts {
+	color: $yellow;
+	border-bottom: 1px solid rgba(250, 189, 0, .3);
+	&:hover {
+			color: $green;
+			border-bottom: 1px solid rgba(1, 149, 97, .3);
+		}
+}
+
+.fotorama__wrap {
+	margin: auto;
+	padding: 0 0 35px 0;
 }
 
 

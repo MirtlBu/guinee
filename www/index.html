@@ -18,20 +18,20 @@
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet"> 
     <link type="text/css" href="css/style.css" rel="Stylesheet"/>
 <body>
-<div class="decorline" height="93"></div>
+<div class="decorline" height="93" id="main"></div>
 
 <div class="main__wrap">
     <div class="main">    
         <div class="navpanel">
             <ul class="nav">
                 <li class="nav">
-                    <a href="#" class="nav">Главная</a>                
+                    <a href="#main" class="nav">Главная</a>                
                 </li>
                 <li class="nav">
-                    <a href="#" class="nav">Медиа</a>                
+                    <a href="#media" class="nav">Медиа</a>                
                 </li>
                 <li class="nav">
-                    <a href="#" class="nav">Контакты</a>                
+                    <a href="#contacts" class="nav">Контакты</a>                
                 </li>
             </ul>
         </div>
@@ -39,22 +39,22 @@
         <div class="about">
             <div class="logo__main" width="193" height="250"></div>
             <div class="text__main">
-                <h3>Гвинея - это барабанная школа</h3>
+                <h3>Гвинея — это барабанная школа</h3>
                 <p>Наш преподаватель - Калю - носитель африканской культуры, и&nbsp;как никто другой может научить не&nbsp;только играть на&nbsp;африканских барабанах, но&nbsp;и&nbsp;расскажет об&nbsp;их&nbsp;культуре, происхождении, раскроет их&nbsp;душу. В&nbsp;нашей школе вы научитесь играть африканские ритмы, вы узнаете, что такое джем и&nbsp;импровизация, и&nbsp;сможете вместе с&nbsp;нами развиваться, и наполняться новыми ритмами день ото дня.</p>
             </div>
-        </div>
+        </div>        
     </div>
 </div>
 
-<div class="media__wrap">
+<div class="media__wrap" id="media">
     <div class="media">
         <h2 class="title">Фотогалерея Guinée</h2>
         <div class="fotorama" 
-                data-width="100%"
+                data-width="800px"
                 data-ratio="3/2"
                 data-nav="thumbs"
                 data-loop="true"
-                data-thumbmargin="15">
+                data-fit="contain">            
             <img src="images/fotorama1.jpg" alt="" class="gallery">
             <img src="images/fotorama2.jpg" alt="" class="gallery">
             <img src="images/fotorama3.jpg" alt="" class="gallery">
@@ -65,34 +65,56 @@
             <img src="images/fotorama8.jpg" alt="" class="gallery">
             <img src="images/fotorama9.jpg" alt="" class="gallery">
             <img src="images/fotorama10.jpg" alt="" class="gallery">
+            <img src="images/fotorama11.jpg" alt="" class="gallery">
+            <img src="images/fotorama12.jpg" alt="" class="gallery">
+            <img src="images/fotorama13.jpg" alt="" class="gallery">
+            <img src="images/fotorama14.jpg" alt="" class="gallery">
+            <img src="images/fotorama15.jpg" alt="" class="gallery">
+            <img src="images/fotorama16.jpg" alt="" class="gallery">
         </div>
+        <a href="#main" class="back back__media">Наверх</a>
     </div>
 </div>
 
-<div class="contacts__wrap">
+<div class="contacts__wrap" id="contacts">
     <div class="contacts">
-        <!-- <img src="images/compass.png" alt="" class="compass" width="80" height="80"> -->
-        <h2 class="title title-other">Нас можно найти:</h2>
-        <div class="map">
-            <div id="map" style="width: 100%; height: 500px"></div>
+        <div class="rows">
+            <div class="row">
+                <h2 class="title title-other">Прочитать</h2>
+                <div class="contacts__item">
+                    <a href="http://vk.com/guinee" class="community__link">Вконтакте</a>
+                </div>
+            </div>
+            <div class="row">
+                <h2 class="title title-other">Написать</h2>
+                <div class="contacts__item">
+                    <a href="mailto:dddrums@mail.ru" class="community__link">dddrums@mail.ru</a>
+                </div>           
+            </div>       
         </div>
-       <!--  <img src="images/eye.png" alt="" class="compass" width="53" height="61"> -->
-        <h2 class="title title-other">Нас можно прочитать:</h2>
-        <div class="community">
-            <a href="http://vk.com/guinee" class="community__links"><i class="fa fa-vk fa-2x"></i></a>
-            <a href="" class="community__links"><i class="fa fa-facebook fa-2x"></i></a>
-            <a href="" class="community__links"><i class="fa fa-twitter fa-2x"></i></a>
+        <div class="rows">
+            <div class="row">
+                <h2 class="title title-other">Позвонить</h2>
+                <div class="contacts__item">
+                    <div class="phone">Кристина: +7 (926) 938-58-27</div>
+                    <div class="phone">Калю: +7 (965) 143-47-20</div>
+                </div> 
+            </div>
+            <div class="row">
+                <h2 class="title title-other">Порекомендовать</h2>
+                <div class="social-likes social" data-counters="no">
+                    <div class="facebook" title="Поделиться ссылкой на Фейсбуке">Facebook</div>
+                    <div class="twitter" title="Поделиться ссылкой в Твиттере">Twitter</div>
+                    <div class="vkontakte" title="Поделиться ссылкой во Вконтакте">Вконтакте</div>
+                    <div class="plusone" title="Поделиться ссылкой в Гугл-плюсе">Google+</div>
+                </div>
+            </div>       
+        </div>  
+        <h2 class="title title-other">Найти</h2>
+        <div class="contacts__item">
+            <div id="map" style="width: 100%; height: 330px"></div>
         </div>
-       <!--  <img src="images/talk.png" alt="" class="compass" width="35" height="84"> -->
-        <h2 class="title title-other">Нас можно порекомендовать:</h2>
-        <div class="social-likes social" data-counters="no">
-            <div class="facebook" title="Поделиться ссылкой на Фейсбуке">Facebook</div>
-            <div class="twitter" title="Поделиться ссылкой в Твиттере">Twitter</div>
-            <div class="mailru" title="Поделиться ссылкой в Моём мире">Мой мир</div>
-            <div class="vkontakte" title="Поделиться ссылкой во Вконтакте">Вконтакте</div>
-            <div class="odnoklassniki" title="Поделиться ссылкой в Одноклассниках">Одноклассники</div>
-            <div class="plusone" title="Поделиться ссылкой в Гугл-плюсе">Google+</div>
-        </div>
+        <a href="#main" class="back back__contacts">Наверх</a>               
     </div>
 </div>
 
@@ -107,12 +129,18 @@
         function init(){ 
             myMap = new ymaps.Map ("map", {
                 center: [55.721536,37.690977],
-                zoom: 15
+                zoom: 16
             });             
             myPlacemark = new ymaps.Placemark([55.721536,37.690977], {
                 hintContent: 'Guinée',
                 balloonContent: 'Школа барабанов: Волгоградский проспект, 32к13'
-            });            
+            },
+            {
+                iconLayout: 'default#image',
+                iconImageHref: 'images/pin.png',
+                iconImageSize: [40, 55]
+            }
+            );            
             myMap.geoObjects.add(myPlacemark);
             myMap.controls.add('zoomControl');
         }
