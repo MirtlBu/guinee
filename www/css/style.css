@@ -64,7 +64,7 @@ a.nav {
 
 .text__main {
   /*color: rgba(242, 9, 41, 0.8);*/
-  color: #fabd00;
+  color: rgba(250, 189, 0, .8);
   padding: 70px 0 50px 0; }
   .text__main h3 {
     display: block;
@@ -75,7 +75,8 @@ a.nav {
   .text__main p {
     font-size: 18px;
     line-height: 20px;
-    font-weight: 200; }
+    font-weight: 200;
+    letter-spacing: 1px;}
 
 .media__wrap {
   background-color: #fabd00;
