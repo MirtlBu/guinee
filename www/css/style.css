@@ -63,7 +63,8 @@ a.nav {
   background: url(../images/main-logo.png) no-repeat; }
 
 .text__main {
-  color: rgba(242, 9, 41, 0.8);
+  /*color: rgba(242, 9, 41, 0.8);*/
+  color: #fabd00;
   padding: 70px 0 50px 0; }
   .text__main h3 {
     display: block;
