@@ -8,12 +8,19 @@ $red: rgba(242, 9, 41, .8);
 }
 
 body {
-	font-size: 14px;
+	font-size: 16px;
 	font-family: 'Lucida Grande', 'Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
 }
 
 a {
 	text-decoration: none;
+}
+
+.main-text {
+	color: $yellow;
+	font-size: 16px;
+	letter-spacing: 3px;
+	font-weight: 300;
 }
 
 .decorline {
@@ -24,6 +31,8 @@ a {
 
 .main__wrap {	
 	background-color: black;
+    -webkit-transition: -webkit-transform 2s ease-in-out;
+    transition: all 2s ease-in-out;
 }
 
 .main {	
@@ -34,7 +43,7 @@ a {
 
 .navpanel {
 	width: 100%;
-	margin-bottom: 50px;
+	margin-bottom: 35px;
 }
 
 li.nav {
@@ -43,13 +52,9 @@ li.nav {
 }
 
 a.nav {
-	color: $yellow;
 	border-bottom: 1px solid rgba(250, 189, 0, .3);
 	text-transform: uppercase;
-	font-size: 16px;
-	font-weight: 300;
 	line-height: 80px;
-	letter-spacing: 3px;
 	&:hover {
 		color: $green;
 		border-bottom: 1px solid rgba(1, 149, 97, .3);
@@ -72,16 +77,15 @@ a.nav {
 	top: 55px;
 }
 
-.logo__main {
+.logo {
 	width: 193px;
 	height: 250px;
 	margin: 0 0 0 80px;
 	background: url(../images/main-logo.png) no-repeat;
 }
 
-.text__main {
-	color: $red;
-	padding: 70px 0 50px 0;
+.about-text {
+	padding: 30px 0 50px 0;
 	h3 {
 		display: block;
 		padding: 20px 0 20px 0;
@@ -89,16 +93,18 @@ a.nav {
 		font-weight: 200;		
 		letter-spacing: 1px;
 	}
-	p {
-		font-size: 18px;
-		line-height: 20px;
+	p {		
+		line-height: 26px;
 		font-weight: 200;
+		letter-spacing: 1px;
 	}
 }
 
 .media__wrap {	
 	background-color: $yellow;
 	padding: 35px 0 35px 0;
+    -webkit-transition: -webkit-transform 2s ease-in-out;
+    transition: all 2s ease-in-out;
 }
 
 .media {
@@ -129,6 +135,8 @@ a.nav {
 .contacts__wrap {
 	background-color: black;
 	padding: 35px 0 35px 0;
+    -webkit-transition: -webkit-transform 2s ease-in-out;
+    transition: all 2s ease-in-out;
 }
 
 .contacts {
@@ -148,74 +156,66 @@ a.nav {
 	padding: 0 0 35px 0;
 }
 
-.community__link {	
-	color: $yellow;
+.community__link {		
 	border-bottom: 1px solid rgba(250, 189, 0, .3);
-	font-size: 16px;
-	font-weight: 300;
-	letter-spacing: 3px;
 	&:hover {
 		color: $green;
 		border-bottom: 1px solid rgba(1, 149, 97, .3);
 	}
 }
 
-.phone {
-	font-size: 16px;		
+.phone {		
 	font-weight: 100;
 	text-transform: uppercase;
-	letter-spacing: 3px;
-	color: white;
 	display: block;
-	color: $yellow;
 	padding: .04em .7em .18em 1.65em;
 	margin: .5em;
 }
 
-.social .social-likes__widget{
+.social .social-likes__widget {
 	background-color: transparent;
-	border-bottom: 1px solid rgba(250, 189, 0, .3);
-	&:hover {
-			color: $green;
-			border-bottom: 1px solid rgba(1, 149, 97, .3);
-			span {
-				color: $green;
-			}
-		}
-	span {
-		font-size: 16px;		
+	padding: .04em .7em .18em 1.65em;
+	span {		
 		font-weight: 400;
 		text-transform: uppercase;
-		letter-spacing: 3px;
-		color: $yellow;
+		border-bottom: 1px solid rgba(250, 189, 0, .3);
+		&:hover {
+			color: $green;
+			border-bottom: 1px solid rgba(1, 149, 97, .3);
+			cursor: pointer;			
+		}
 	}	
+} 
+
+#map {
+	margin: 35px 0 0 0;
 }
 
-.back {
-	text-transform: uppercase;
-	font-size: 16px;
-	font-weight: 400;
-	letter-spacing: 3px;
-	display: inline-block;
-}
+// .back {
+// 	text-transform: uppercase;
+// 	font-size: 16px;
+// 	font-weight: 400;
+// 	letter-spacing: 3px;
+// 	display: inline-block;
+// }
 
-.back__media {
-	color: black;
-	border-bottom: 1px solid rgba(0, 0, 0, .3);
-	&:hover {
-			color: $green;
-			border-bottom: 1px solid rgba(1, 149, 97, .3);
-		}
-}
+// .back__media {
+// 	color: black;
+// 	border-bottom: 1px solid rgba(0, 0, 0, .3);
+// 	&:hover {
+// 			color: $green;
+// 			border-bottom: 1px solid rgba(1, 149, 97, .3);
+// 		}
+// }
 
-.back__contacts {
-	color: $yellow;
-	border-bottom: 1px solid rgba(250, 189, 0, .3);
-	&:hover {
-			color: $green;
-			border-bottom: 1px solid rgba(1, 149, 97, .3);
-		}
-}
+// .back__contacts {
+// 	color: $yellow;
+// 	border-bottom: 1px solid rgba(250, 189, 0, .3);
+// 	&:hover {
+// 			color: $green;
+// 			border-bottom: 1px solid rgba(1, 149, 97, .3);
+// 		}
+// }
 
 .fotorama__wrap {
 	margin: auto;

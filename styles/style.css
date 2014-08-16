@@ -3,11 +3,17 @@
   margin: 0; }
 
 body {
-  font-size: 14px;
-  font-family: "Helvetica Neue"; }
+  font-size: 16px;
+  font-family: 'Lucida Grande', 'Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif; }
 
 a {
   text-decoration: none; }
+
+.main-text {
+  color: #fabd00;
+  font-size: 16px;
+  letter-spacing: 3px;
+  font-weight: 300; }
 
 .decorline {
   height: 93px;
@@ -15,7 +21,9 @@ a {
   background: url(../images/ornament.png) repeat-x #fabd00; }
 
 .main__wrap {
-  background-color: black; }
+  background-color: black;
+  -webkit-transition: -webkit-transform 2s ease-in-out;
+  transition: all 2s ease-in-out; }
 
 .main {
   width: 1000px;
@@ -24,20 +32,16 @@ a {
 
 .navpanel {
   width: 100%;
-  margin-bottom: 50px; }
+  margin-bottom: 35px; }
 
 li.nav {
   margin: 0 20px 0 20px;
   display: inline; }
 
 a.nav {
-  color: #fabd00;
   border-bottom: 1px solid rgba(250, 189, 0, 0.3);
   text-transform: uppercase;
-  font-size: 16px;
-  font-weight: 300;
-  line-height: 80px;
-  letter-spacing: 3px; }
+  line-height: 80px; }
   a.nav:hover {
     color: #019561;
     border-bottom: 1px solid rgba(1, 149, 97, 0.3); }
@@ -56,29 +60,30 @@ a.nav {
   left: 70px;
   top: 55px; }
 
-.logo__main {
+.logo {
   width: 193px;
   height: 250px;
   margin: 0 0 0 80px;
   background: url(../images/main-logo.png) no-repeat; }
 
-.text__main {
-  color: rgba(242, 9, 41, 0.8);
-  padding: 70px 0 50px 0; }
-  .text__main h3 {
+.about-text {
+  padding: 30px 0 50px 0; }
+  .about-text h3 {
     display: block;
     padding: 20px 0 20px 0;
     font-size: 24px;
     font-weight: 200;
     letter-spacing: 1px; }
-  .text__main p {
-    font-size: 18px;
-    line-height: 20px;
-    font-weight: 200; }
+  .about-text p {
+    line-height: 26px;
+    font-weight: 200;
+    letter-spacing: 1px; }
 
 .media__wrap {
   background-color: #fabd00;
-  padding: 35px 0 35px 0; }
+  padding: 35px 0 35px 0;
+  -webkit-transition: -webkit-transform 2s ease-in-out;
+  transition: all 2s ease-in-out; }
 
 .media {
   width: 1000px;
@@ -103,7 +108,9 @@ a.nav {
 
 .contacts__wrap {
   background-color: black;
-  padding: 35px 0 35px 0; }
+  padding: 35px 0 35px 0;
+  -webkit-transition: -webkit-transform 2s ease-in-out;
+  transition: all 2s ease-in-out; }
 
 .contacts {
   width: 1000px;
@@ -120,61 +127,32 @@ a.nav {
   padding: 0 0 35px 0; }
 
 .community__link {
-  color: #fabd00;
-  border-bottom: 1px solid rgba(250, 189, 0, 0.3);
-  font-size: 16px;
-  font-weight: 300;
-  letter-spacing: 3px; }
+  border-bottom: 1px solid rgba(250, 189, 0, 0.3); }
   .community__link:hover {
     color: #019561;
     border-bottom: 1px solid rgba(1, 149, 97, 0.3); }
 
 .phone {
-  font-size: 16px;
   font-weight: 100;
   text-transform: uppercase;
-  letter-spacing: 3px;
-  color: white;
   display: block;
-  color: #fabd00;
   padding: .04em .7em .18em 1.65em;
   margin: .5em; }
 
 .social .social-likes__widget {
   background-color: transparent;
-  border-bottom: 1px solid rgba(250, 189, 0, 0.3); }
-  .social .social-likes__widget:hover {
-    color: #019561;
-    border-bottom: 1px solid rgba(1, 149, 97, 0.3); }
-    .social .social-likes__widget:hover span {
-      color: #019561; }
+  padding: .04em .7em .18em 1.65em; }
   .social .social-likes__widget span {
-    font-size: 16px;
     font-weight: 400;
     text-transform: uppercase;
-    letter-spacing: 3px;
-    color: #fabd00; }
+    border-bottom: 1px solid rgba(250, 189, 0, 0.3); }
+    .social .social-likes__widget span:hover {
+      color: #019561;
+      border-bottom: 1px solid rgba(1, 149, 97, 0.3);
+      cursor: pointer; }
 
-.back {
-  text-transform: uppercase;
-  font-size: 16px;
-  font-weight: 400;
-  letter-spacing: 3px;
-  display: inline-block; }
-
-.back__media {
-  color: black;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.3); }
-  .back__media:hover {
-    color: #019561;
-    border-bottom: 1px solid rgba(1, 149, 97, 0.3); }
-
-.back__contacts {
-  color: #fabd00;
-  border-bottom: 1px solid rgba(250, 189, 0, 0.3); }
-  .back__contacts:hover {
-    color: #019561;
-    border-bottom: 1px solid rgba(1, 149, 97, 0.3); }
+#map {
+  margin: 35px 0 0 0; }
 
 .fotorama__wrap {
   margin: auto;
