@@ -12,7 +12,6 @@ a {
 .main-text {
   color: #fabd00;
   font-size: 16px;
-  letter-spacing: 3px;
   font-weight: 300; }
 
 .decorline {
@@ -22,7 +21,8 @@ a {
 
 .main__wrap {
   background-color: black;
- }
+  -webkit-transition: -webkit-transform 2s ease-in-out;
+  transition: all 2s ease-in-out; }
 
 .main {
   width: 1000px;
@@ -34,8 +34,9 @@ a {
   margin-bottom: 35px; }
 
 li.nav {
-  margin: 0 20px 0 20px;
-  display: inline; }
+  margin: 0 10px 0 10px;
+  display: inline;
+  letter-spacing: 5px; }
 
 a.nav {
   border-bottom: 1px solid rgba(250, 189, 0, 0.3);
@@ -71,17 +72,16 @@ a.nav {
     display: block;
     padding: 20px 0 20px 0;
     font-size: 24px;
-    font-weight: 200;
-    letter-spacing: 1px; }
+    font-weight: 200; }
   .about-text p {
     line-height: 26px;
-    font-weight: 200;
-    letter-spacing: 1px; }
+    font-weight: 200; }
 
 .media__wrap {
   background-color: #fabd00;
   padding: 35px 0 35px 0;
- }
+  -webkit-transition: -webkit-transform 2s ease-in-out;
+  transition: all 2s ease-in-out; }
 
 .media {
   width: 1000px;
@@ -95,10 +95,10 @@ a.nav {
 .title {
   font-size: 24px;
   font-weight: 200;
-  padding: 35px 0 35px 0;
+  padding: 35px 0 15px 0;
   text-transform: uppercase;
   text-align: center;
-  letter-spacing: 3px; }
+  letter-spacing: 7px; }
 
 .title-other {
   color: white;
@@ -106,8 +106,7 @@ a.nav {
 
 .contacts__wrap {
   background-color: black;
-  padding: 35px 0 35px 0;
-   }
+  padding: 35px 0 35px 0; }
 
 .contacts {
   width: 1000px;
@@ -117,7 +116,7 @@ a.nav {
 
 .row {
   display: inline-block;
-  width: 45%;
+  width: 46%;
   vertical-align: top; }
 
 .contacts__item {
@@ -133,16 +132,16 @@ a.nav {
   font-weight: 100;
   text-transform: uppercase;
   display: block;
-  padding: .04em .7em .18em 1.65em;
-  margin: .5em; }
+  letter-spacing: 5px;
+  margin: 0 0 .5em 0; }
 
 .social .social-likes__widget {
-  background-color: transparent;
-  padding: .04em .7em .18em 1.65em; }
+  padding: 0 0 0.5em 0; }
   .social .social-likes__widget span {
     font-weight: 400;
     text-transform: uppercase;
-    border-bottom: 1px solid rgba(250, 189, 0, 0.3); }
+    border-bottom: 1px solid rgba(250, 189, 0, 0.3);
+    letter-spacing: 5px; }
     .social .social-likes__widget span:hover {
       color: #019561;
       border-bottom: 1px solid rgba(1, 149, 97, 0.3);
