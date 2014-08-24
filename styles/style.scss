@@ -19,7 +19,6 @@ a {
 .main-text {
 	color: $yellow;
 	font-size: 16px;
-	letter-spacing: 3px;
 	font-weight: 300;
 }
 
@@ -47,8 +46,9 @@ a {
 }
 
 li.nav {
-	margin: 0 20px 0 20px;
+	margin: 0 10px 0 10px;
 	display: inline;
+    letter-spacing: 5px;
 }
 
 a.nav {
@@ -90,13 +90,11 @@ a.nav {
 		display: block;
 		padding: 20px 0 20px 0;
 		font-size: 24px;		
-		font-weight: 200;		
-		letter-spacing: 1px;
+		font-weight: 200;
 	}
 	p {		
 		line-height: 26px;
 		font-weight: 200;
-		letter-spacing: 1px;
 	}
 }
 
@@ -121,10 +119,10 @@ a.nav {
 .title {
 	font-size: 24px;		
 	font-weight: 200;
-	padding: 35px 0 35px 0;
+	padding: 35px 0 15px 0;
 	text-transform: uppercase;
 	text-align: center;
-	letter-spacing: 3px;
+	letter-spacing: 7px;
 }
 
 .title-other {
@@ -135,8 +133,6 @@ a.nav {
 .contacts__wrap {
 	background-color: black;
 	padding: 35px 0 35px 0;
-    -webkit-transition: -webkit-transform 2s ease-in-out;
-    transition: all 2s ease-in-out;
 }
 
 .contacts {
@@ -148,7 +144,7 @@ a.nav {
 
 .row {
 	display: inline-block;
-	width: 45%;
+	width: 46%;
 	vertical-align: top;
 }
 
@@ -168,54 +164,28 @@ a.nav {
 	font-weight: 100;
 	text-transform: uppercase;
 	display: block;
-	padding: .04em .7em .18em 1.65em;
-	margin: .5em;
+    letter-spacing: 5px;
+	margin: 0 0 .5em 0;
 }
 
 .social .social-likes__widget {
-	background-color: transparent;
-	padding: .04em .7em .18em 1.65em;
-	span {		
+	padding: 0 0 0.5em 0;
+	span {
 		font-weight: 400;
 		text-transform: uppercase;
 		border-bottom: 1px solid rgba(250, 189, 0, .3);
+        letter-spacing: 5px;
 		&:hover {
 			color: $green;
 			border-bottom: 1px solid rgba(1, 149, 97, .3);
-			cursor: pointer;			
+			cursor: pointer;
 		}
-	}	
-} 
+	}
+}
 
 #map {
 	margin: 35px 0 0 0;
 }
-
-// .back {
-// 	text-transform: uppercase;
-// 	font-size: 16px;
-// 	font-weight: 400;
-// 	letter-spacing: 3px;
-// 	display: inline-block;
-// }
-
-// .back__media {
-// 	color: black;
-// 	border-bottom: 1px solid rgba(0, 0, 0, .3);
-// 	&:hover {
-// 			color: $green;
-// 			border-bottom: 1px solid rgba(1, 149, 97, .3);
-// 		}
-// }
-
-// .back__contacts {
-// 	color: $yellow;
-// 	border-bottom: 1px solid rgba(250, 189, 0, .3);
-// 	&:hover {
-// 			color: $green;
-// 			border-bottom: 1px solid rgba(1, 149, 97, .3);
-// 		}
-// }
 
 .fotorama__wrap {
 	margin: auto;
