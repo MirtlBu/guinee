@@ -1,23 +1,28 @@
 {
   "name": "Guinee",
-  "version": "0.0.1",
-  "description": "",
-  "main": "all.js",
+  "version": "0.1.0",
+  "description": "Guinee landing",
+  "main": "Gruntfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MirtlBu/guinee.git"
+  },
+  "author": "MirtlBu",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MirtlBu/guinee/issues"
+  },
+  "homepage": "https://github.com/MirtlBu/guinee",
   "devDependencies": {
     "grunt": "^0.4.5",
-    "grunt-autoprefixer": "^1.0.0",
-    "grunt-base64": "^0.1.0",
+    "grunt-autoprefixer": "^1.0.1",
     "grunt-bower-concat": "^0.3.0",
-    "grunt-contrib-concat": "^0.4.0",
-    "grunt-contrib-sass": "^0.7.3",
-    "grunt-contrib-uglify": "^0.5.0",
-    "grunt-contrib-watch": "^0.6.1",
-    "grunt-csso": "^0.6.2",
-    "grunt-ssi": "^0.2.1"
+    "grunt-contrib-concat": "^0.5.0",
+    "grunt-contrib-sass": "^0.8.1",
+    "grunt-contrib-uglify": "^0.5.1",
+    "grunt-contrib-watch": "^0.6.1"
   }
 }

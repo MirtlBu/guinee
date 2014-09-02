@@ -76,11 +76,6 @@ module.exports = function(grunt) {
           'www/js/all.js': 'www/js/all.js'
         }
       }
-    },
-    csso: {
-      // Cжать стили
-      // Ссылаемся на autoprefixer, чтобы не повторяться
-      main: '<%= autoprefixer.main %>'
     }
   });
 
@@ -90,12 +85,11 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-concat');
   grunt.loadNpmTasks('grunt-autoprefixer');
   grunt.loadNpmTasks('grunt-contrib-uglify');
-  grunt.loadNpmTasks('grunt-csso');
   grunt.loadNpmTasks('grunt-contrib-sass');
   grunt.loadNpmTasks('grunt-bower-concat');
 
   // Задача по умолчанию (`grunt` в терминале)
   //grunt.registerTask('default', ['concat', 'sass', 'bower_concat','autoprefixer', 'uglify', 'csso', 'ssi']);
-  grunt.registerTask('default', ['concat', 'sass', 'bower_concat','autoprefixer', 'uglify', 'csso']);
+  grunt.registerTask('default', ['concat', 'sass', 'bower_concat','autoprefixer', 'uglify']);
 
 };

@@ -20,9 +20,7 @@ a {
   background: url(../images/ornament.png) repeat-x #fabd00; }
 
 .main__wrap {
-  background-color: black;
-  -webkit-transition: -webkit-transform 2s ease-in-out;
-  transition: all 2s ease-in-out; }
+  background-color: black; }
 
 .main {
   width: 1000px;
